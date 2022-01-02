@@ -1,0 +1,197 @@
+/*this is a comment*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.9em;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1 ,h2 ,h3{
+    padding-bottom: 20;
+}
+
+p{
+    margin: 20px 0;
+}
+
+.container{
+    margin: auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-t{
+    color: #f7c08a;
+}
+.lead{
+    font-size: 18px;
+}
+.btn{
+    display: inline;
+    font-size: 15px;
+    color: #fff;
+    background:gray ;
+    padding: 12px 18px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.btn :hover {
+    background: #f7c08a;
+    color:burlywood;
+}
+.btn-light :hover {
+    background:#f4f4f4;
+    color:white;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #f7c08a;
+}
+.bg-primary{
+    background: #f3b77b ;
+    color: #333;
+}
+
+#navber{
+    background-color:#333;
+    color: #fff;
+    overflow: auto;
+}
+#navber a{
+    color: #fff;
+}
+#navber h1{
+        float: left;
+        padding-top: 40px;
+}
+#navber ul{
+    list-style: none;
+    float: right;
+}
+
+#navber ul li{
+        float: left;
+        padding: 20px;
+}
+#navber ul li a{
+        display: block;
+        padding: 20px;
+        text-align: center;
+}
+#navber ul li a:hover,
+#navber ul li a.current{
+    background-color: #444444;
+    color: #f7c08a;
+}
+
+/*showcage*/
+#showcage{
+    background:url(/PC5.jpg) no-repeat
+     center center/cover;
+     height: 400px;
+}
+#showcage .showcage-content{
+    color: white;
+    text-align: center;
+    padding-top: 120;
+}
+#showcage .showcage-content h1{
+    font-size: 50px;
+    line-height: 1em;
+    font-style: italic;
+}
+
+#showcage .showcage-content p{
+    padding-bottom: 18;
+    line-height: 1.5;
+}
+/*home info*/
+#home-info{
+    height: 400px;
+}
+#home-info .info-img{
+    float: left;
+   width: 50%;
+    background: url(/new_folder/PC8.jpg) no-repeat;
+    min-height: 100%;
+}
+#home-info .info-content{
+
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p{
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.village{
+    color: chartreuse;
+    font-size: 30px;
+    line-height: 1.9em;
+    text-align: center;
+    padding: 40px;
+    background-image: url(PC\ Wallpapers\ HD.jpg);
+    height: 800px;
+}
+.aboout{
+    font-size: 50px;
+    color: white;
+}
+.text-o{
+    font-size: 60px;
+    font-style: italic;
+    color: sandybrown;
+}
+.about{
+    font: 40px;
+    text-align: center;
+    line-height: 1.7;
+    padding: 30px;
+    background-color: gray;
+    color: white;
+}
+.bbb{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.a{
+    text-align: center;
+    background-color: #a76565;
+}
+
+.about-a{
+    float: left;
+}
+
+.my-img{
+    height: 100px;
+}
+
+#says {
+    background-color: #f3b77b;
+    height: 700px;
+
+}
